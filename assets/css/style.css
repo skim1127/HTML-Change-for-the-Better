@@ -1,17 +1,32 @@
 nav,
 .nav {
     color: white;
-    background: linear-gradient(aqua, black);
+    background: linear-gradient(royalblue, black);
 }
 
 main,
 .main {
-    background: linear-gradient(aqua, rgb(211, 25, 25));
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(slateblue, mediumspringgreen);
+}
+
+.nav-text {
+    font-size: large;
 }
 
 .banner {
     width: 100%;
     height: auto;
+}
+
+.banner-text {
+    color: khaki
+}
+
+.btn-text{
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .btn1 {
@@ -26,14 +41,27 @@ main,
 
 footer,
 .footer {
-    background: linear-gradient(to top, aqua, black);
+    background: linear-gradient(to top, lemonchiffon, black);
     color: white;
+}
+
+.form-text {
+    font-size: larger;
 }
 
 .flashy-text {
     color: aqua;
     animation: blink-animation 0.2s steps(5, start) infinite;
     -webkit-animation: blink-animation 0.2s steps(5, start) infinite;
+}
+
+#form-header {
+    color: maroon
+}
+
+#footer-text {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes blink-animation {
